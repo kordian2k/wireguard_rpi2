@@ -1,0 +1,5 @@
+interface wlan0
+#noipv6rs
+static ip_address=192.168.72.1/24
+static ip6_address=fd72::1/64
+nohook wpa_supplicant
